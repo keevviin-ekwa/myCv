@@ -20,8 +20,6 @@ class CreateReferencesTable extends Migration
             $table->string('function');
             $table->integer('phone');
             $table->string('email');
-            $table->integer('user_id')->unsigned();
-            $table->integer('cv_id')->unsigned();
             $table->timestamps();
         });
     }

@@ -17,7 +17,6 @@ class CreateTasksTable extends Migration
             $table->id();
             $table->string('name');
             $table->integer('experience_id')->unsigned();
-            $table->integer('formation_id')->unsigned();
             $table->foreign('experience_id')->references('experciences')->onDelete('cascade');
             $table->timestamps();
         });

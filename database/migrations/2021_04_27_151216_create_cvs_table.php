@@ -17,6 +17,7 @@ class CreateCvsTable extends Migration
             $table->id();
             $table->string('title');
             $table->integer('user_id');
+            $table->integer('reference_id')->unsigned();
             $table->foreign('user_id')->references('users')->onDelete('cascade');
             $table->timestamps();
         });
