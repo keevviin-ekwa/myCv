@@ -1,0 +1,15 @@
+un cv
+1. une photo
+2. Formations(ecole, annee debut, annee fin, diplome, description)
+    table ecole
+    table diplome
+
+3. Experience(annee debut,annee fin, entreprise, lieux, poste, taches realisees)
+    table taches
+4. Loisirs,(nom)
+4. Atouts(nom)
+5.References (nom, entreprise,poste,telephone,email)
+6. Realisations(nom, description, lien)
+7. Un resume (description)
+8. Utilisateur (nom,date naissance, lieu d'habitation, situation matrimoniale, tel, email)
+9. Reseau (nom,lien)
