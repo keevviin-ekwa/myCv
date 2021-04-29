@@ -24,6 +24,7 @@ class CreateUsersTable extends Migration
             $table->integer('child');
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->integer('formation_id')->unsigned();
             $table->rememberToken();
             $table->timestamps();
         });

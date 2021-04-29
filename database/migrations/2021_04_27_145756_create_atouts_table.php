@@ -19,7 +19,6 @@ class CreateAtoutsTable extends Migration
             $table->integer('user_id')->unsigned();
             $table->integer('cv_id')->unsigned();
             $table->foreign('user_id')->references('users')->onDelete('cascade');
-            $table->foreign('cv_id')->references('cvs')->onDelete('cascade');
             $table->timestamps();
         });
     }

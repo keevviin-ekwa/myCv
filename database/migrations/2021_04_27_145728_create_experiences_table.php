@@ -19,7 +19,6 @@ class CreateExperiencesTable extends Migration
             $table->date('start_date');
             $table->date('end_date');
             $table->string('place');
-            $table->integer('task_id');
             $table->timestamps();
         });
     }

@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\Formations;
+use App\Model\Formation;
 use Illuminate\Http\Request;
 
 class FormationsController extends Controller
@@ -41,10 +41,10 @@ class FormationsController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Model\Formations  $formations
+     * @param  \App\Model\Formation  $formations
      * @return \Illuminate\Http\Response
      */
-    public function show(Formations $formations)
+    public function show(Formation $formations)
     {
         //
     }
@@ -52,10 +52,10 @@ class FormationsController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Model\Formations  $formations
+     * @param  \App\Model\Formation  $formations
      * @return \Illuminate\Http\Response
      */
-    public function edit(Formations $formations)
+    public function edit(Formation $formations)
     {
         //
     }
@@ -64,10 +64,10 @@ class FormationsController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Model\Formations  $formations
+     * @param  \App\Model\Formation  $formations
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Formations $formations)
+    public function update(Request $request, Formation $formations)
     {
         //
     }
@@ -75,10 +75,10 @@ class FormationsController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Model\Formations  $formations
+     * @param  \App\Model\Formation  $formations
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Formations $formations)
+    public function destroy(Formation $formations)
     {
         //
     }

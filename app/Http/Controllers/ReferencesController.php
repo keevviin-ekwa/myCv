@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\References;
+use App\Model\Reference;
 use Illuminate\Http\Request;
 
 class ReferencesController extends Controller
@@ -41,10 +41,10 @@ class ReferencesController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Model\References  $references
+     * @param  \App\Model\Reference  $references
      * @return \Illuminate\Http\Response
      */
-    public function show(References $references)
+    public function show(Reference $references)
     {
         //
     }
@@ -52,10 +52,10 @@ class ReferencesController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Model\References  $references
+     * @param  \App\Model\Reference  $references
      * @return \Illuminate\Http\Response
      */
-    public function edit(References $references)
+    public function edit(Reference $references)
     {
         //
     }
@@ -64,10 +64,10 @@ class ReferencesController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Model\References  $references
+     * @param  \App\Model\Reference  $references
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, References $references)
+    public function update(Request $request, Reference $references)
     {
         //
     }
@@ -75,10 +75,10 @@ class ReferencesController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Model\References  $references
+     * @param  \App\Model\Reference  $references
      * @return \Illuminate\Http\Response
      */
-    public function destroy(References $references)
+    public function destroy(Reference $references)
     {
         //
     }

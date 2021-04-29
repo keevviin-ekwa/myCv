@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\Liens;
+use App\Model\Lien;
 use Illuminate\Http\Request;
 
 class LiensController extends Controller
@@ -41,10 +41,10 @@ class LiensController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Model\Liens  $liens
+     * @param  \App\Model\Lien  $liens
      * @return \Illuminate\Http\Response
      */
-    public function show(Liens $liens)
+    public function show(Lien $liens)
     {
         //
     }
@@ -52,10 +52,10 @@ class LiensController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Model\Liens  $liens
+     * @param  \App\Model\Lien  $liens
      * @return \Illuminate\Http\Response
      */
-    public function edit(Liens $liens)
+    public function edit(Lien $liens)
     {
         //
     }
@@ -64,10 +64,10 @@ class LiensController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Model\Liens  $liens
+     * @param  \App\Model\Lien  $liens
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Liens $liens)
+    public function update(Request $request, Lien $liens)
     {
         //
     }
@@ -75,10 +75,10 @@ class LiensController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Model\Liens  $liens
+     * @param  \App\Model\Lien  $liens
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Liens $liens)
+    public function destroy(Lien $liens)
     {
         //
     }

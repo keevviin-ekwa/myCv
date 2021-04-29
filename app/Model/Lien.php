@@ -5,9 +5,9 @@ namespace App\Model;
 use App\User;
 use Illuminate\Database\Eloquent\Model;
 
-class Resume extends Model
+class Lien extends Model
 {
     public function user(){
-      return  $this->belongsTo(User::class);
+       return  $this->belongsTo(User::class);
     }
 }

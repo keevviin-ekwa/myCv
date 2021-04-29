@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Model\Experiences;
+use App\Model\Experience;
 use Illuminate\Http\Request;
 
 class ExperiencesController extends Controller
@@ -41,10 +41,10 @@ class ExperiencesController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Model\Experiences  $experiences
+     * @param  \App\Model\Experience  $experiences
      * @return \Illuminate\Http\Response
      */
-    public function show(Experiences $experiences)
+    public function show(Experience $experiences)
     {
         //
     }
@@ -52,10 +52,10 @@ class ExperiencesController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Model\Experiences  $experiences
+     * @param  \App\Model\Experience  $experiences
      * @return \Illuminate\Http\Response
      */
-    public function edit(Experiences $experiences)
+    public function edit(Experience $experiences)
     {
         //
     }
@@ -64,10 +64,10 @@ class ExperiencesController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Model\Experiences  $experiences
+     * @param  \App\Model\Experience  $experiences
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Experiences $experiences)
+    public function update(Request $request, Experience $experiences)
     {
         //
     }
@@ -75,10 +75,10 @@ class ExperiencesController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Model\Experiences  $experiences
+     * @param  \App\Model\Experience  $experiences
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Experiences $experiences)
+    public function destroy(Experience $experiences)
     {
         //
     }

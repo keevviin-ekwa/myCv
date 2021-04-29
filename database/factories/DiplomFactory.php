@@ -7,6 +7,8 @@ use Faker\Generator as Faker;
 
 $factory->define(Diplom::class, function (Faker $faker) {
     return [
-        //
+        'name'=> $faker->name,
+
+
     ];
 });

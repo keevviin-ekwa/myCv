@@ -16,6 +16,8 @@ class CreateDiplomsTable extends Migration
         Schema::create('diploms', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+//           $table->integer('formation_id')->unsigned();
+//            $table->foreign('formation_id')->references('formations')->onDelete('cascade');
             $table->timestamps();
         });
     }
